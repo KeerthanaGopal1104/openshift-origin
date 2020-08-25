@@ -48,13 +48,13 @@
 			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7Im+7US5uYPEOTC0OSY52crF3YoJSWgQYQRE3R8yDt6Oc/RY+TIKrckQKu7qgtRTP5uucD4R+Qk8J5qdA6TgbOblp90+Azn88hqU3nzt3gVJZN+s4HoC38MZGOjM4qkM6MoxlMyKCE1/3Mnm8KR+gF4RLjqeeYhgUc3n4voSzrTWsmd0Y+ITT1JngGg5Cm0rwVw7r9XpxfcvQNpfetVoaYm0fc0F20K7w/NOOn1OOpB4s0ijV996f9RX1t3E/7QgLun8xqB6A7OxqEmfSwVNrpHE8nzhah2doPhZGQrPgwW8m4EevE7nh+8eRLUK6UNCe73WFGoe6kptYuIfxtFdd"
 		},
 		"keyVaultResourceGroup": {
-			"value": "openshiftTrial"
+			"value": "trial1"
 		},
 		"keyVaultName": {
-			"value": "keyvaultTrail"
+			"value": "keyvaulttrial1"
 		},
 		"keyVaultSecret": {
-			"value": "SecretName"
+			"value": "SecretName1"
 		},
 		"enableAzure": {
 			"value": "true"
