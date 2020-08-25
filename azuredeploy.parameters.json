@@ -54,7 +54,7 @@
 			"value": "keyvaulttrial2"
 		},
 		"keyVaultSecret": {
-			"value": "SecretName"
+			"value": "SecretName1"
 		},
 		"enableAzure": {
 			"value": "true"
