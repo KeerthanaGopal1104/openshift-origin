@@ -51,10 +51,10 @@
 			"value": "trial1"
 		},
 		"keyVaultName": {
-			"value": "keyvaulttrial1"
+			"value": "keyvaulttrial2"
 		},
 		"keyVaultSecret": {
-			"value": "SecretName1"
+			"value": "SecretName"
 		},
 		"enableAzure": {
 			"value": "true"
