@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master"
+			"value": "https://raw.githubusercontent.com/KeerthanaGopal1104/openshift-origin/master"
 		},
 		"masterVmSize": {
 			"value": "Standard_D4s_v3"
@@ -18,7 +18,7 @@
 			"value": "managed"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "Trial"
 		},
 		"masterInstanceCount": {
 			"value": 3
@@ -33,10 +33,10 @@
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "azureuser"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "Keerthu1@3$"
 		},
 		"enableMetrics": {
 			"value": "false"
@@ -45,25 +45,25 @@
 			"value": "false"
 		},
 		"sshPublicKey": {
-			"value": "changeme"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7Im+7US5uYPEOTC0OSY52crF3YoJSWgQYQRE3R8yDt6Oc/RY+TIKrckQKu7qgtRTP5uucD4R+Qk8J5qdA6TgbOblp90+Azn88hqU3nzt3gVJZN+s4HoC38MZGOjM4qkM6MoxlMyKCE1/3Mnm8KR+gF4RLjqeeYhgUc3n4voSzrTWsmd0Y+ITT1JngGg5Cm0rwVw7r9XpxfcvQNpfetVoaYm0fc0F20K7w/NOOn1OOpB4s0ijV996f9RX1t3E/7QgLun8xqB6A7OxqEmfSwVNrpHE8nzhah2doPhZGQrPgwW8m4EevE7nh+8eRLUK6UNCe73WFGoe6kptYuIfxtFdd"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "openshiftTrial"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "keyvaultTrail"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "SecretName"
 		},
 		"enableAzure": {
 			"value": "true"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": "3282ed8a-94b4-49f2-b4ea-218e19ffc2a7"
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": "http://openshiftcloudprovider"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
