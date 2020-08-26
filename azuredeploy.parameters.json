@@ -45,7 +45,8 @@
 			"value": "false"
 		},
 		"sshPublicKey": {
-			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDa0mBa8LAgJoM9hlSjzXVpNEWKTU0jwcjtaRUNhuekY1w/d5pSGzL5y/JpqUxV2yZwU3hj1QNuGPpTCBMwBQUB+h8z/08ivxFKo1zF1PTa8W1Vxw44J+1rKzwRjVRv+cKFdpUBpP8caWg29X5yGmk/gngig+hno2YhlxxY2pLlXFVZIBSQqOdpJy6aFeFfovbtI79AfL6Z1bMomf/TS7A8r8gsvLWNlXG+RqhsxvZ/H+U88uO3wQyeKjw+uJFVz0MUxMv9XVpyAd+aZbVKWlzgZ2swpDx2VDmZzuVco8KpTK42SfVr7WAl6zryHCQv4+IV7H8Bn9VHIadnXMQ7X77L8VJTnmovN92ggFNIjjCgNQDQ3W/zkniK24xnUSBFoKE6ESD7qLPKk+p5ugULCfEVKnoyDfKTtQv1ldouAneTXuk1N0p5z+5FHdqx3OB4tb3WwL0OWb6ijDj7I3g5WEqOhO/YFkRIXCD/h3DyS642LVWW9lZ4OVHNnIx7YrhQdE8= generated-by-azure",
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDa0mBa8LAgJoM9hlSjzXVpNEWKTU0jwcjtaRUNhuekY1w/d5pSGzL5y/JpqUxV2yZwU3hj1QNuGPpTCBMwBQUB+h8z/08ivxFKo1zF1PTa8W1Vxw44J+1rKzwRjVRv+cKFdpUBpP8caWg29X5yGmk/gngig+hno2YhlxxY2pLlXFVZIBSQqOdpJy6aFeFfovbtI79AfL6Z1bMomf/TS7A8r8gsvLWNlXG+RqhsxvZ/H+U88uO3wQyeKjw+uJFVz0MUxMv9XVpyAd+aZbVKWlzgZ2swpDx2VDmZzuVco8KpTK42SfVr7WAl6zryHCQv4+IV7H8Bn9VHIadnXMQ7X77L8VJTnmovN92ggFNIjjCgNQDQ3W/zkniK24xnUSBFoKE6ESD7qLPKk+p5ugULCfEVKnoyDfKTtQv1ldouAneTXuk1N0p5z+5FHdqx3OB4tb3WwL0OWb6ijDj7I3g5WEqOhO/YFkRIXCD/h3DyS642LVWW9lZ4OVHNnIx7YrhQdE8= generated-by-azure"
+		},
 		"keyVaultResourceGroup": {
 			"value": "openShift"
 		},
