@@ -33,7 +33,7 @@
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "azureuser"
+			"value": "keerthanag@terawe.com"
 		},
 		"openshiftPassword": {
 			"value": "Keerthu1@3$"
@@ -48,48 +48,22 @@
 			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7Im+7US5uYPEOTC0OSY52crF3YoJSWgQYQRE3R8yDt6Oc/RY+TIKrckQKu7qgtRTP5uucD4R+Qk8J5qdA6TgbOblp90+Azn88hqU3nzt3gVJZN+s4HoC38MZGOjM4qkM6MoxlMyKCE1/3Mnm8KR+gF4RLjqeeYhgUc3n4voSzrTWsmd0Y+ITT1JngGg5Cm0rwVw7r9XpxfcvQNpfetVoaYm0fc0F20K7w/NOOn1OOpB4s0ijV996f9RX1t3E/7QgLun8xqB6A7OxqEmfSwVNrpHE8nzhah2doPhZGQrPgwW8m4EevE7nh+8eRLUK6UNCe73WFGoe6kptYuIfxtFdd"
 		},
 		"keyVaultResourceGroup": {
-			"value": "trial1"
+			"value": "openShift"
 		},
 		"keyVaultName": {
-			"value": "keyvaulttrial1"
+			"value": "openShiftkeyVaultt"
 		},
 		"keyVaultSecret": {
-			"value": "-----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAuyJvu1EubmDxDkwtDkmOdnKxd2KCUloEGEERN0fMg7ejnP0W
-PkyCq3JECru6oLUUz+brnA+EfkJPCeanQOk4Gzm5afdPgM5/PIalN587d4FSWTfr
-OB6At/DGRjozOKpDOjKMZTMighNf9zJ5vCkfoBeES46nnmIYFHN5+L6Es601rJnd
-GPiE09SZ4BoOQptK8FcO6/V6cX3L0DaX3rVaGmJtH3NBdtCu8PzTjp9TjqQeLNIo
-1ffen/UV9bdxP+0IC7p/MagegOzsahJn0sFTa6RxPJ84WodnaD4WRkKz4MFvJuBH
-rxO54fvHkS1CulDQnu91hRqHupKbWLiH8bRXXQIDAQABAoIBAEtAU9HtmVBFp2nq
-dAvUxHcZNAggEuvuysq+D6A9PR6SkDanB3TR65HqBzaRu0C40L+xynkdPFhRbds7
-Z3KQ1kEMe2UDUHMplrzOIE43uAAcfvLlq68LhRNyvSisasCUpygV/6MKZwwLooGT
-SKTDnLYR/t8rZHgqViiTLy853b8qbaoNEgn/+9ujlyeNzWst/SIve7K2iU/vZ4JB
-X+vU6F+bGm28o9iWdPjDaeDwqJckgDsvwF5RTNKaheasSUvYQ3GLsRpveIEF/IXy
-kWImt3Vtpsh/hopJujPXIeaG2MHun2w6/VLV1tmiIrQXxfShTQ4Hoef/pMpKPxah
-OcJFankCgYEA5xtHtgO/LzYp+VSEPv1othgvhY787nRtktSRpsKk05oJp6dtQ/H7
-e5iI9I9R+7cYFYvDip6d81/jBQT6L0kRl1QqcFVFPV/oP38jLUf24WqQe9IP55E4
-J+xsN22DLUW6l7UlVFADm4oBjKsjkkxLEvOSo5KP6PutPiOEnx7HpDcCgYEAz0qi
-rhODm7cLaJ72/1g0JuuThHIvCqI7QrM/bg61qN03eMd5AcL6uEwmraC48FUoEHsi
-XGni2rfZaOrP3qrmF/kF+nraaNPJvGb9YOyqwywPldl4V4Kb9qwpoNscb7tDcXCo
-Ycz0Zeu3Wzll2qlwmMhSnwLncDx3lWxf6N4ffwsCgYEAhIcCUoBHjH1VCKPMyopr
-F7E63y4mIWAmzcKUW7rW5nk4/Clo4UPM4Q2RzBy7+MsARqrFUaKwFTZxaxl1ltQi
-AFPFmnFrqUxsVK1FsNvJ2W5QuJC3iiWevFY5oHdud/G6lPDOHVFdID69sLsbRPP3
-QUDoYGDVoddhe3bGwLDX73UCgYA4rWCDliRS7B57cZN5R6WiyqCgAxRnpOntF9ON
-BQqYbDvhkzC70ZL51yBwMtS+KZp1vyUq/Wygfso8DI/fgvy8q0L+NJ8JMHclQ0ee
-O7eI+8AbKcXkr3pzXKlZKO/CgQI0vyfa7c4ZG/UbRTtbKR73NzaX8ZRUNMRBn8st
-gaY89wKBgDTVrtcRwNwM5aOtJJqVH4UICS4pvGPuGldMU7N6+SwYSktpbhLQvpSg
-ry445DmC2FwLIyCKZG5ZnQi+RTYoANjFD+P32EezwYA+JpcrQIT+mVOEBVRKSF2i
-3QfUIh39pOQt5ghKlAV9OUJEPDhnR8+1qjnk/6UOjtHSuuAdlE1x
------END RSA PRIVATE KEY-----"
+			"value": "MIIEoQIBAAKCAQEAhSyPDIvlZ+cXxu3vdRGzlyDC1fiiPjvAhNsb1Tk4mKHGlkQXz8/uFPXqQmp/PySuTfYLLLKOSP2Tp9IOu+CKbVo4LusSa9cZskQCtthLdtVpPZ4UXGsdjrBhuKhvg+ybOvNI7fEyYSIwz9R5YhFGzyGLnj6zzCFGkBynRB3ltEjLHfVHUAqt2tbHwiCY5mva6S9NC7qjon6G2Pc8igu8xETTH0g0KuwZrwaoXgws5cT9uHPfRxHw1zUQqmXPzi13njbLwGVFT9luOvYZCVEiD4gBqfXylqOTlP8L0JEA/yhf6Vd1RQmQQmqynW0TAWoXkfw3EKs3To9vwLpevr5uwwIBJQKCAQA1/U6/5bAHhzMnIjClFQOeIgnMXeDozB2dpO+boZN8Jei5dY0c5Zfe++lZMhfpKovaaqqVlH7fUgttjIKDhIslacO//m9AecwlrN6Bekgba0ZXQBYXoQv7k509BgOyBfm98+0iMVmdAAXzY/nbpiOgFIS1xmSRBpI6bHspc+eAb/HAvuuZDDR0DV6QFLC7DNgSqOwgRL0p45B1IA3EjxbKOpI0O4jQAFn36xxz06G3hjYJnsiMDRAGRNXqQ5H5eFOM7vykyJ5Oslj9CNSX+8JSAbLBtMDKHeEQ+98GflfE5AILzP8/yBM7UlpOwx7LHMsFZFpdgx3aCeounZOD8/FtAoGBANtpNhKTJuFDufi/bvaIjkOHPuUkibe+b7oruQBqz27wIFuj0EqxEfuzyWWD/KGfnBFdi8Lu8TqUdL/DIbpdWKzZZZZ1SbhNLwao1O9vH2NkUYhQgPI23EqvHpLeoY1cVtN+1xSFhHcq3ZQwFqriFAUtE9rj1u98Bu05fiSD80GhAoGBAJth1zPc+OTOLwfjj6oqEz4i2EOXmG6e3XlqM29+qCauHIZP9iCJ2UAPLIUz0lG0qqtUPk/Ld/UiOKelajXnVqdYHU6jkxeV4Wnuxx00XlbP3POdyDXksMhmpmPh6wGJ9HZNZJXM29iWSoPvUvoIMS6s8NKbf8r8+JY2YjTCHB3jAoGAI5SFTx7ICNqM3Dq4DE1+2oSialjzvO5y+5hjMIAF9lBz8y9SNaAsbgF6mtciDF8SY65OA+9lY3IFGC17F01oU2GGGGYL9F+LFdYwXi2yEB4bDy+mNR2nLrSdLJLOFuxhG2CtQZkcZln6aw63kVUYANbgoAlFcvGElSvq8Soncm0CgYBDMTp3Ssx+nlmG3vIEZTjA7Hkx/F2XnqT2O8M3IgOGWSEXfIYb6JVMIjzD+rvQTiBKFpd8c6l+wrC3MsYlJcSbZF+zTadkJSM0ukhD+vhc5EPe+B855lpI0nF3TPAAqlvgIXeauXPTR+jfG2Im7sko8NbXnTBXx1a9f00P5TyXTQKBgQC9ECLJ7mx+BlLBBLYzX9AxqsVaWXz7rUUapx+07cXjcC4B2q8nqqjs0ezUqMYM8ikKQAyOwQElD2nH1W/rKK8KO99T4djVRNXJJUeSDBrpz919bhmRX6SFXqGhvWdc872sD1m/UX2/rbTvS3VvCY7UUMeZS3yNtvEluOIWLRlGaA=="
 		},
 		"enableAzure": {
 			"value": "true"
 		},
 		"aadClientId": {
-			"value": "3282ed8a-94b4-49f2-b4ea-218e19ffc2a7"
+			"value": "4420e072-daf1-49f3-9c7f-ebfeda36f73f"
 		},
 		"aadClientSecret": {
-			"value": "pv-5XjsVhErE1ZI9b~wyk1eFvzMG~goFen"
+			"value": "TO.MA0osTeJFwUc-is52-zy8YIz.n8qVB-"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
