@@ -21,13 +21,13 @@
 			"value": "Trial"
 		},
 		"masterInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"infraInstanceCount": {
-			"value": 2
+			"value": 3
 		},
 		"nodeInstanceCount": {
-			"value": 2
+			"value": 3
 		},
 		"dataDiskSize": {
 			"value": 128
