@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/KeerthanaGopal1104/openshift-origin/master"
+			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master"
 		},
 		"masterVmSize": {
 			"value": "Standard_D4s_v3"
