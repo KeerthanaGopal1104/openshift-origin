@@ -18,7 +18,7 @@
 			"value": "unmanaged"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "changemeasName"
 		},
 		"masterInstanceCount": {
 			"value": 3
