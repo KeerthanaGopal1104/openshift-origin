@@ -18,7 +18,8 @@ yum -y update --exclude=WALinuxAgent
 yum -y update glusterfs-fuse
 
 echo $(date) " - Installing Ansible, pyOpenSSL and python-passlib"
-yum -y --enablerepo=epel install ansible pyOpenSSL python-passlib
+yum -y install centos-release-ansible26 && yum -y install ansible
+yum -y --enablerepo=epel install pyOpenSSL python-passlib
 
 # Grow Root File System
 echo $(date) " - Grow Root FS"
@@ -78,4 +79,3 @@ systemctl enable docker
 systemctl start docker
 
 echo $(date) " - Script Complete"
-
