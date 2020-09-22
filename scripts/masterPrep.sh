@@ -118,3 +118,5 @@ parameters:
 EOF
 
 fi
+
+echo $(date) " - Script Complete"
