@@ -115,6 +115,7 @@ fi
 
 cat > updateansiblecfg.yaml <<EOF
 #!/usr/bin/ansible-playbook
+
 - hosts: localhost
   become: yes
   gather_facts: no
@@ -147,6 +148,7 @@ etcd
 master0
 glusterfs
 new_nodes
+
 # Set variables common for all OSEv3 hosts
 [OSEv3:vars]
 ansible_ssh_user=$SUDOUSER
@@ -164,20 +166,26 @@ openshift_master_api_port=443
 openshift_master_console_port=443
 osm_default_node_selector='region=app'
 openshift_disable_check=disk_availability,memory_availability,docker_image_availability
+
 # default selectors for router and registry services
 $registrygluster
 openshift_router_selector='region=infra'
 openshift_registry_selector='region=infra'
+
 # Deploy Service Catalog
 openshift_enable_service_catalog=false
+
 openshift_master_cluster_method=native
 openshift_master_cluster_hostname=$MASTERPUBLICIPHOSTNAME
 openshift_master_cluster_public_hostname=$MASTERPUBLICIPHOSTNAME
 openshift_master_cluster_public_vip=$MASTERPUBLICIPADDRESS
+
 # Enable HTPasswdPasswordIdentityProvider
 openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider', 'filename': '/etc/origin/master/htpasswd'}]
+
 # Disable the OpenShift SDN plugin
 openshift_use_openshift_sdn=true
+
 # Setup metrics
 openshift_metrics_install_metrics=false
 #openshift_metrics_cassandra_storage_type=dynamic
@@ -187,6 +195,7 @@ openshift_metrics_hawkular_nodeselector={"region":"infra"}
 openshift_metrics_cassandra_nodeselector={"region":"infra"}
 openshift_metrics_heapster_nodeselector={"region":"infra"}
 openshift_hosted_metrics_public_url=https://metrics.$ROUTING/hawkular/metrics
+
 # Setup logging
 openshift_logging_install_logging=false
 #openshift_logging_es_pvc_dynamic=true
@@ -197,22 +206,28 @@ openshift_logging_kibana_nodeselector={"region":"infra"}
 openshift_logging_curator_nodeselector={"region":"infra"}
 openshift_master_logging_public_url=https://kibana.$ROUTING
 openshift_logging_master_public_url=https://$MASTERPUBLICIPHOSTNAME:443
+
 # host group for masters
 [masters]
 $MASTER-[0:${MASTERLOOP}]
+
 # host group for etcd
 [etcd]
 $MASTER-[0:${MASTERLOOP}]
+
 [master0]
 $MASTER-0
+
 [glusterfs]
 $cnsglusterinfo
+
 # host group for nodes
 [nodes]
 $mastergroup
 $infragroup
 $nodegroup
 $cnsgroup
+
 [new_nodes]
 EOF
 
