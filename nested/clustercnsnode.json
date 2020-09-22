@@ -86,18 +86,6 @@
 				"description": "Managed or Unmanaged disk"
 			}
 		},
-		"newStorageAccountOs": {
-			"type": "string",
-			"metadata": {
-				"description": "Storage Account for OS disk"
-			}
-		},
-		"newStorageAccountData": {
-			"type": "string",
-			"metadata": {
-				"description": "Storage Account for data disk"
-			}
-		},
 		"diagStorageAccount": {
 			"type": "string",
 			"metadata": {
