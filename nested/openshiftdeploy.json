@@ -26,18 +26,6 @@
 				"description": "Bastion prep script file name"
 			}
 		},
-		"newStorageAccountRegistry": {
-			"type": "string",
-			"metadata": {
-				"description": "Storage Account for Docker Registry"
-			}
-		},
-		"newStorageAccountKey": {
-			"type": "string",
-			"metadata": {
-				"description": "Storage Account Key for Docker Registry"
-			}
-		},
 		"openshiftMasterHostname": {
 			"type": "string",
 			"metadata": {
@@ -98,12 +86,6 @@
 				"description": "Number of CNS nodes"
 			}
 		},
-		"storageKind": {
-			"type": "string",
-			"metadata": {
-				"description": "Managed or unmanaged disk"
-			}
-		},
 		"adminUsername": {
 			"type": "string",
 			"metadata": {
@@ -132,24 +114,6 @@
 			"type": "string",
 			"metadata": {
 				"description": "Enable OpenShift Logging: true or false"
-			}
-		},
-		"enableAzure": {
-			"type": "string",
-			"metadata": {
-				"description": "Enable Azure: true or false"
-			}
-		},
-		"aadClientId": {
-			"type": "string",
-			"metadata": {
-				"description": "Azure AD Client ID"
-			}
-		},
-		"aadClientSecret": {
-			"type": "securestring",
-			"metadata": {
-				"description": "Azure AD Client Secret"
 			}
 		},
 		"nipioDomain": {
@@ -184,11 +148,7 @@
 		}
 	},
 	"variables": {
-		"singlequote": "'",
-		"tenantId": "[subscription().tenantId]",
-		"subscriptionId": "[subscription().subscriptionId]",
-		"location": "[resourceGroup().location]",
-		"resourceGroupName": "[resourceGroup().name]",
+		"singlequote": "'"
 	},
 	"resources": [{
 		"type": "Microsoft.Compute/virtualMachines/extensions",
@@ -213,7 +173,7 @@
 				]
 			},
 			"protectedSettings": {
-				"commandToExecute": "[concat('bash ', parameters('openshiftDeploymentScriptFileName'), ' \"', parameters('adminUsername'), '\" ', variables('singlequote'), parameters('openshiftPassword'), variables('singlequote'), ' \"', parameters('sshPrivateKey'), '\" \"', parameters('openshiftMasterHostname'), '\" \"', parameters('openshiftMasterPublicIpFqdn'), '\" \"', parameters('openshiftMasterPublicIpAddress'), '\" \"', parameters('openshiftInfraHostname'), '\" \"', parameters('openshiftNodeHostname'), '\" \"', parameters('nodeInstanceCount'), '\" \"', parameters('infraInstanceCount'), '\" \"', parameters('MasterInstanceCount'), '\" \"', parameters(parameters('subDomainChosen')), '\" \"', parameters('newStorageAccountRegistry'), '\" ', variables('singlequote'), parameters('newStorageAccountKey'), variables('singlequote'), ' ', variables('singlequote'), variables('tenantId'), variables('singlequote'), ' ', variables('singlequote'), variables('subscriptionId'), variables('singlequote'), ' ', variables('singlequote'), parameters('aadClientId'), variables('singlequote'), ' ', variables('singlequote'), parameters('aadClientSecret'), variables('singlequote'), ' ', variables('singlequote'), variables('resourceGroupName'), variables('singlequote'), ' ', variables('singlequote'), variables('location'), variables('singlequote'), ' ', variables('singlequote'), parameters('enableMetrics'), variables('singlequote'), ' ', variables('singlequote'), parameters('enableLogging'), variables('singlequote'), ' ', variables('singlequote'), parameters('enableAzure'), variables('singlequote'), ' ', variables('singlequote'), parameters('storageKind'), variables('singlequote'), ' ', variables('singlequote'), parameters('enableCNS'), variables('singlequote'), ' ', variables('singlequote'), parameters('openshiftCnsHostname'), variables('singlequote'),' ', variables('singlequote'), parameters('cnsInstanceCount'), variables('singlequote'))]"
+				"commandToExecute": "[concat('bash ',parameters('openshiftDeploymentScriptFileName'),' \"',parameters('adminUsername'),'\" ',variables('singlequote'),parameters('openshiftPassword'),variables('singlequote'),' \"',parameters('sshPrivateKey'),'\" \"',parameters('openshiftMasterHostname'),'\" \"',parameters('openshiftMasterPublicIpFqdn'),'\" \"',parameters('openshiftMasterPublicIpAddress'),'\" \"',parameters('openshiftInfraHostname'),'\" \"',parameters('openshiftNodeHostname'),'\" \"',parameters('nodeInstanceCount'),'\" \"',parameters('infraInstanceCount'),'\" \"',parameters('MasterInstanceCount'),'\" \"',parameters(parameters('subDomainChosen')),'\" ',variables('singlequote'),parameters('enableMetrics'),variables('singlequote'),' ',variables('singlequote'),parameters('enableLogging'),variables('singlequote'),' ',variables('singlequote'),parameters('enableCNS'),variables('singlequote'),' ',variables('singlequote'),parameters('openshiftCnsHostname'),variables('singlequote'),' ',variables('singlequote'),parameters('cnsInstanceCount'),variables('singlequote'))]"
 			}
 		}
 	}],
